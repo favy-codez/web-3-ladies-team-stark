@@ -20,10 +20,10 @@ Team members:
 
 * Github - [](https://github.com/) - Product Designer
 * Github - [](https://github.com/) - Product Designer
-* Github - [](https://github.com/) - Frontend Developer
-* Github - [favy-codez](https://github.com/favy-codez) - Frontend Developer
-* Github - [](https://github.com/) - Web3
-* Github - [](https://github.com/) - Web3
+* Github - [Iwema Favour](https://github.com/Riode-iwema) - Frontend Developer (Web2)
+* Github - [Ezeliora Godsfavour .O.](https://github.com/favy-codez) - Frontend Developer (Web2)
+* Github - [](https://github.com/) - (Web3)
+* Github - [](https://github.com/) - (Web3)
 * Linkedin - [Precious Austine-Ushie, "MD"](https://www.linkedin.com/in/precious-austine-ushie-m-d-131b24217/) - Product Manager
 * Github - [](https://github.com/) - Product Manager
 ## Acknowledgments
