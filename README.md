@@ -5,6 +5,7 @@ Welcome! 👋
 Thanks for checking out our Project.
 
 ## The challenge
+### An NFT gated social board
 * A user should be able to make posts and specify the contract address/addresses of the NFT that will be used for the gating.
 * Only users with an NFT/NFTs should be able to view posts based on the NFTs the author specified. 
 * An interface that would show posts to users depending on if they hold an NFT. Example: If you hold a Bored Ape NFT you should be able to view a post
