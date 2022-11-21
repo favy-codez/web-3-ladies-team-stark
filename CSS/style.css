@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: ;
+}
+
+/* ************** GENERAL STYLING ********************/
+a{
+    text-decoration: none;
+}
+
+/* ************** HEADER STYLING********************/
+#nav-logo{
+    color: #F4C20D;
+    
+}
+
+/* ************** END OF HEADER STYLING ********************/
+
+/* ************** HERO-SECTION STYLING ********************/
+.hero-section{
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 3rem;
+}
+
+.hero-section-partA p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.72px;
+}
+
+.hero-section-partB{
+display: flex;
+}
+
+#hero-img1{
+    width: 263px;
+    height: 358px;
+}
+
+.explore-button{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #F4B40D;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.create-button{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #F4B40D;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.explore-button a, .create-button a{
+    color: #fff;
+}
+/* ************** END OF HERO-SECTION STYLING ********************/
+
+/* **************SECTION-ONE STYLING********************/
+
+
+/* **************END OF SECTION-ONE STYLING********************/
+
+/* **************SECTION-TWO STYLING********************/
+
+
+/* **************END OF SECTION-TWO STYLING********************/
+
+/* **************SECTION-THREE STYLING********************/
+
+
+/* **************END OF SECTION-THREE STYLING********************/
+
+/* **************FOOTER STYLING********************/
+
+
+/* **************END OF FOOTER STYLING********************/
+
+
+/* **************MEDIA QUERY STYLING********************/
+
+
+/* **************END OF MEDIA QUERY STYLING********************/
