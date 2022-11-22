@@ -3,6 +3,24 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-    color: #fff;
+}
+
+html, body{
     overflow-x: hidden;
+    background: rgb(1,63,33);
+    background: linear-gradient(90deg, rgba(1,63,33,1) 31%, rgba(31,29,16,1) 49%, rgba(57,1,1,1) 100%);
+}
+
+.explore-button{
+    padding: 10px 40px;
+    background-color: #F4B40D;
+    border: none;
+    border-radius: 10px;
+}
+
+.create-button{
+    padding: 10px 40px;
+    background-color:transparent;
+    border-radius: 10px;
+    border: 1px solid #F4B40D;
 }
