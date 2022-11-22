@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     background: rgb(1,41,22);
-    background: linear-gradient(90deg, rgba(1,41,22,1) 0%, rgba(40,42,22,1) 35%, rgba(35,2,1,1) 100%);
+    /* background: linear-gradient(90deg, rgba(1,41,22,1) 0%, rgba(40,42,22,1) 35%, rgba(35,2,1,1) 100%); */
 }
 
 /* ************** GENERAL STYLING ********************/
@@ -16,17 +16,20 @@ span{
     color: #F4B40D;
 }
 
-header,main{
-    
+::placeholder {
+    font-size: 13px;
+    color: #ABAAAA;
+    text-align: center;
 }
 
 /* ************** HEADER STYLING********************/
 header{
-    padding: 1rem 4rem;
+    padding: 2rem 4rem;
+    color: #fff;
 }
 
 #nav-logo{
-    width: 24%;
+    width: 37%;
 }
 
 .nav-section{
@@ -36,15 +39,47 @@ header{
 
 .nav2{
     display: flex;
+    width: 100%;
     justify-content: space-between;
 }
+
+.nav2 a{
+    color: #fff;
+}
+
+.nav2 input[type=text]{
+    width: 39%;
+    padding: 10px 15px;
+    background-color: #fff;
+    border: none;
+    border-radius: 30px;
+}
+
+#nav-btn{
+    padding: 5px 20px;
+    background-color: transparent;
+    border: 2px solid #F4B40D;
+    border-radius: 10px;
+    color: #fff;
+    margin: 0 0 0 -70px;
+}
+
+#nav-middle{
+    line-height: 50px;
+}
+
+#nav-middle:active{
+    border-bottom:1px solid #F4B40D;
+}
+
 /* ************** END OF HEADER STYLING ********************/
 
 /* ************** HERO-SECTION STYLING ********************/
 .hero-section{
     display: flex;
-    gap: 1rem;
-    margin: 2rem 4rem;
+    gap: 6rem;
+    padding: 0 0 1rem 0;
+    margin: 2rem 4rem 1rem 4rem;
     color: #fff;
 }
 
@@ -66,13 +101,8 @@ header{
     padding: 10px  0 0 0;
 }
 
-#hero-img1{
-    /* width: 263px;
-    height: 358px; */
-}
-
 .explore-button{
-    padding: 10px 20px;
+    padding: 10px 40px;
     background-color: transparent;
     border: 2px solid #F4B40D;
     border-radius: 10px;
@@ -84,7 +114,7 @@ header{
 }
 
 .create-button{
-    padding: 10px 20px;
+    padding: 10px 40px;
     background-color: transparent;
     border: 2px solid #F4B40D;
     border-radius: 10px;
@@ -96,26 +126,26 @@ header{
 }
 
 .hero-section-partA h2{
-    width: 60%;
+    width: 67%;
     font-size: 2rem;
     font-weight: 600;
     text-align: left;
-    line-height: 40px;
-    margin: 0 0 2rem 0;
+    line-height: 45px;
+    margin: 0 0 2.5rem 0;
 }
 
 .hero-section-partA p{
-    width: 75%;
+    width: 85%;
     text-align: left;
     font-size:16px ;
     font-weight: 500;
-    line-height:20.72px ;
-    margin: 0 0 2rem 0;
+    line-height:24px ;
+    margin: 0 0 3rem 0;
 }
 
 .hero-buttons{
     display: flex;
-    gap: 14px;
+    gap: 30px;
     font-size: 20px;
 }
 
