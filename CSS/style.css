@@ -215,6 +215,8 @@ header{
 
 .featured-section p{
     font-size: 16px;
+    padding: 13px 0 0 0;
+    line-height: 20px;
 }
 
 /* **************END OF SECTION-ONE STYLING********************/
