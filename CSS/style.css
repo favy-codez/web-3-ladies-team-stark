@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-    background: rgb(1,41,22);
     /* background: linear-gradient(90deg, rgba(1,41,22,1) 0%, rgba(40,42,22,1) 35%, rgba(35,2,1,1) 100%); */
 }
 
@@ -20,6 +19,10 @@ span{
     font-size: 13px;
     color: #ABAAAA;
     text-align: center;
+}
+
+.color-one{
+    background: rgb(1,41,22);
 }
 
 /* ************** HEADER STYLING********************/
@@ -232,7 +235,10 @@ header{
 /* **************END OF SECTION-THREE STYLING********************/
 
 /* **************FOOTER STYLING********************/
-
+.footer-section{
+    background-color: #371301;
+    color: #fff;
+}
 
 /* **************END OF FOOTER STYLING********************/
 
