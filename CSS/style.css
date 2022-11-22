@@ -22,7 +22,7 @@ header,main{
 
 /* ************** HEADER STYLING********************/
 header{
-    padding: 1rem 6rem;
+    padding: 1rem 4rem;
 }
 
 #nav-logo{
@@ -44,7 +44,7 @@ header{
 .hero-section{
     display: flex;
     gap: 1rem;
-    margin: 2rem 3rem;
+    margin: 2rem 4rem;
     color: #fff;
 }
 
@@ -55,12 +55,20 @@ header{
 }
 
 .hero-section-partB{
-display: flex;
+    display: flex;
+    gap: 14px;
+}
+
+.hero-image-sec2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px  0 0 0;
 }
 
 #hero-img1{
-    width: 263px;
-    height: 358px;
+    /* width: 263px;
+    height: 358px; */
 }
 
 .explore-button{
@@ -69,6 +77,10 @@ display: flex;
     border: 2px solid #F4B40D;
     border-radius: 10px;
     color: #fff;
+}
+
+.explore-button:hover{
+    border: 2px solid #F4B40D;
 }
 
 .create-button{
@@ -84,7 +96,7 @@ display: flex;
 }
 
 .hero-section-partA h2{
-    width: 56%;
+    width: 60%;
     font-size: 2rem;
     font-weight: 600;
     text-align: left;
@@ -93,7 +105,7 @@ display: flex;
 }
 
 .hero-section-partA p{
-    width: 70%;
+    width: 75%;
     text-align: left;
     font-size:16px ;
     font-weight: 500;
@@ -104,6 +116,11 @@ display: flex;
 .hero-buttons{
     display: flex;
     gap: 14px;
+    font-size: 20px;
+}
+
+.hero-buttons a{
+    font-size: 20px;
 }
 /* ************** END OF HERO-SECTION STYLING ********************/
 
