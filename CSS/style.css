@@ -323,17 +323,17 @@ header{
 .footer-section-2{
     display: flex;
     justify-content: space-between;
-    padding: 2rem 0;
+    padding: 2rem 0 2rem 0rem;
     font-size: 13px;
 }
 
 .stark-footer-icons{
     display: flex;
-    gap: 14px;
+    gap: 23px;
 }
 
 .footer-icon{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .footer-icon:hover{
@@ -345,6 +345,11 @@ header{
     padding: 1rem 0 0 0;
     font-size: 13px;
 }
+
+.footer-section-2 img{
+    width: 10rem;
+}
+
 
 /* **************END OF FOOTER STYLING********************/
 
