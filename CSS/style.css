@@ -155,7 +155,14 @@ header{
 /* ************** END OF HERO-SECTION STYLING ********************/
 
 /* **************SECTION-ONE STYLING********************/
+.section-one{
+    padding: 1rem 4rem;
+    color: #fff;
+}
 
+span a{
+    color: #F4B40D;
+}
 
 /* **************END OF SECTION-ONE STYLING********************/
 
