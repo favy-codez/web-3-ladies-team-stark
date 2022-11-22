@@ -4,9 +4,105 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     color: #fff;
+    overflow-x: hidden;
+}
+body{
+    background: rgb(1,63,33);
+    background: linear-gradient(90deg, rgba(1,63,33,1) 31%, rgba(31,29,16,1) 49%, rgba(57,1,1,1) 100%);
+
 }
 
 main{
-    background: rgb(1,63,33);
-    background: linear-gradient(90deg, rgba(1,63,33,1) 31%, rgba(31,29,16,1) 49%, rgba(57,1,1,1) 100%);
+    padding: 90px;
+    padding-top: 50px;
+}
+.form-section-1 img{
+    width: 65px;
+}
+.form-section-3{
+    margin-top: 50px;
+}
+.form-section-3-1{
+    display: flex;
+    gap: 14px;
+    padding-top: 120px;
+
+}
+
+.hero-image-sec2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px  0 0 0;
+}
+.form-section-3{
+    display: flex;
+    gap: 120px;
+}
+.logo2{
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 100;
+    line-height: 60px;
+    width: 100%;
+}
+
+.logo2 img{
+    width: 70px;
+    padding-left: 12px;
+}
+
+form{
+    margin-top: 50px;
+}
+
+input{
+    background: transparent;
+    border: 1px solid #F4B40D;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    padding-left: 10px;
+    caret-color: #F4B40D;
+}
+button{
+    background-color: #F4B40D;
+    border: none;
+    font-size: 17px;
+    color: black;
+    margin-top: 20px;
+}
+button:hover{
+    transition: 300ms;
+    background: transparent;
+    color: #F4B40D;
+    border:1px #F4B40D solid ;
+
+}
+input[type=email]:focus{
+    border: 1px solid #F4B40D;
+    transition: 300ms;
+}
+input, button{
+    height: 50px;
+    width: 35rem;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #F4B40D;
+    transition: 300ms;
+}
+.login{
+    width: 120px;
+    margin: 65px auto 20px auto;
+}
+.loginOptionsA{
+    margin-bottom: 20px;
+}
+.loginOptionsA, .loginOptionsB{
+    display: flex;
+    justify-content: space-between;
+
 }

@@ -113,7 +113,7 @@ header{
     display: flex;
     gap: 6rem;
     padding: 0 0 1rem 0;
-    margin: 5rem 4rem 1rem 4rem;
+    margin: 5rem 3rem 1rem 4rem;
     color: #fff;
 }
 
@@ -142,10 +142,6 @@ header{
     border-radius: 10px;
 }
 
-.explore-button:hover{
-    color: #F4B40D;
-}
-
 .create-button{
     padding: 10px 40px;
     background-color:transparent;
@@ -164,8 +160,11 @@ header{
     color: #fff;
 }
 
-.explore-button a:hover, .create-button a:hover{
-    
+.explore-button a:hover{
+    color:#fff;
+}
+.create-button:hover{
+    border: 1px solid #fff;
 }
 
 .hero-section-partA h2{
