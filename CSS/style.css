@@ -2,7 +2,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: ;
+    font-family: 'Inter', sans-serif;
+    background: rgb(1,41,22);
+    background: linear-gradient(90deg, rgba(1,41,22,1) 0%, rgba(40,42,22,1) 35%, rgba(35,2,1,1) 100%);
 }
 
 /* ************** GENERAL STYLING ********************/
@@ -10,12 +12,32 @@ a{
     text-decoration: none;
 }
 
-/* ************** HEADER STYLING********************/
-#nav-logo{
-    color: #F4C20D;
+span{
+    color: #F4B40D;
+}
+
+header,main{
     
 }
 
+/* ************** HEADER STYLING********************/
+header{
+    padding: 1rem 6rem;
+}
+
+#nav-logo{
+    width: 24%;
+}
+
+.nav-section{
+    display: flex;
+    gap: 3rem;
+}
+
+.nav2{
+    display: flex;
+    justify-content: space-between;
+}
 /* ************** END OF HEADER STYLING ********************/
 
 /* ************** HERO-SECTION STYLING ********************/
@@ -23,6 +45,7 @@ a{
     display: flex;
     gap: 1rem;
     margin: 2rem 3rem;
+    color: #fff;
 }
 
 .hero-section-partA p{
@@ -58,6 +81,29 @@ display: flex;
 
 .explore-button a, .create-button a{
     color: #fff;
+}
+
+.hero-section-partA h2{
+    width: 56%;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: left;
+    line-height: 40px;
+    margin: 0 0 2rem 0;
+}
+
+.hero-section-partA p{
+    width: 70%;
+    text-align: left;
+    font-size:16px ;
+    font-weight: 500;
+    line-height:20.72px ;
+    margin: 0 0 2rem 0;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 14px;
 }
 /* ************** END OF HERO-SECTION STYLING ********************/
 
