@@ -156,8 +156,27 @@ header{
 
 /* **************SECTION-ONE STYLING********************/
 .section-one{
+    margin: 5rem 0;
     padding: 1rem 4rem;
     color: #fff;
+    display: flex;
+}
+
+.section-one-partB h3, .section-one-partA h3{
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0 0 1rem 0;
+}
+
+.section-one-partA p{
+    width: 57%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.featured-section img{
+    width: 25%;
 }
 
 span a{
