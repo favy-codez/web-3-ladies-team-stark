@@ -25,6 +25,19 @@ span{
     background: rgb(1,41,22);
 }
 
+hr{
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: #EBEAEB 0.5px;
+    border-style: inset;
+}
+
+html, body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
 /* ************** HEADER STYLING********************/
 header{
     padding: 2rem 4rem;
@@ -159,8 +172,8 @@ header{
 
 /* **************SECTION-ONE STYLING********************/
 .section-one{
-    margin: 5rem 0;
-    padding: 1rem 4rem;
+    margin: 5rem 0 0 0;
+    padding: 1rem 4rem 5rem 4rem;
     color: #fff;
     display: flex;
     gap: 2rem;
