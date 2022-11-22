@@ -69,6 +69,13 @@ header{
     background-color: #fff;
     border: none;
     border-radius: 30px;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+}
+
+.nav2 input[type=text]:focus {
+    border:10px solid #F4B40D;
 }
 
 #nav-btn{
@@ -333,7 +340,7 @@ header{
 
 
 /* **************MEDIA QUERY STYLING********************/
-@media only screen and (min-width:992px){
+/* @media only screen and (min-width:992px){
     .nav-section{
         gap: 0rem;
     }
@@ -351,6 +358,7 @@ header{
         line-height: 21px;
     }
 }
+
 
 @media only screen and (min-width:768px){
     header{
@@ -401,12 +409,11 @@ header{
         width: 100%;
     }
     .featured-section{
-        margin-bottom: 2rem;
+        margin-bottom: 2.7rem;
     }
     .section-one-partB span a{
-        display: block;
-        margin: 0 auto;
+        
     }
-}
+} */
 
 /* **************END OF MEDIA QUERY STYLING********************/
