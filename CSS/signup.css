@@ -18,10 +18,13 @@ a{
 h3{
     color: #fff;
     text-align: center;
+    padding-bottom: 30px;
+    letter-spacing: 6px;
+    font-size: 26px;
 }
 
 .sign-1{
-    margin: 3rem 0 5rem 6rem;
+    margin: 3rem 0 3rem 12rem;
 }
 
 .sign-1 img{
@@ -30,7 +33,7 @@ h3{
 
 .sign-2{
     display: flex;
-    margin: 2rem 0 5rem 6rem;
+    margin: 2rem 0 2rem 12rem;
     gap: 5rem;
 }
 
@@ -56,32 +59,38 @@ h3{
 
 span{
     font-size: 3.5rem;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 #gold{
     color: #F4B40D;
 }
 
+#golds{
+    color: #F4B40D;
+}
+
 .explore-button{
-    padding: 10px 40px;
+    padding: 10px 10px;
     background-color: #F4B40D;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .create-button{
-    padding: 10px 40px;
+    padding: 10px 10px;
     background-color:transparent;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 1px solid #F4B40D;
 }
 
 .explore-button a{
     color: #000;
+    font-weight: 600;
 } 
 .create-button a{
     color: #fff;
+    font-weight: 600;
 }
 
 .explore-button a:hover{
@@ -90,6 +99,13 @@ span{
 
 .create-button:hover{
     border: 1px solid #fff;
+}
+
+.hero-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 16px 0 0 0;
 }
 
 /* .hero-section-partB{
