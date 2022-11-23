@@ -18,6 +18,10 @@ a{
     text-align: center;
 }
 
+hr{
+    border: #F4B400 0.1px solid;
+}
+
 .connect-1{
     background-color: #033B1F;
     padding: 0 1rem 0rem 3rem;
@@ -55,6 +59,9 @@ a{
 .container{
     background: rgb(34,72,29);
     background: linear-gradient(90deg, rgba(34,72,29,1) 31%, rgba(21,16,8,1) 49%, rgba(58,1,1,1) 100%);
+    max-width: 600px;
+    margin: 4rem auto 0 auto;
+    padding: 1.5rem;
 }
 
 .connect-wallet{
@@ -124,4 +131,14 @@ button:hover{
     transition: 300ms;
     background: transparent;
 
+}
+
+.container-2-3{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-1 h3{
+    font-size: 1.5rem;
+    font-weight: 400;
 }
