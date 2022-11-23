@@ -111,3 +111,17 @@ a{
     background-position: 10px ;
     background-repeat: no-repeat;
 }
+
+button{
+    background: transparent;
+    border:1px #F4B40D solid ;
+    font-size: 17px;
+    color: black;
+    margin-top: 20px;
+}
+
+button:hover{
+    transition: 300ms;
+    background: transparent;
+
+}
