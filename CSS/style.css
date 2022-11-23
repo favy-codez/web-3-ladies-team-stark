@@ -24,7 +24,7 @@ span{
 
 .color-one{
     background: rgb(1,68,35);
-background: linear-gradient(180deg, rgba(1,68,35,1) 67%, rgba(55,11,6,1) 95%, rgba(40,3,2,1) 100%);
+    background: linear-gradient(180deg, rgba(1,68,35,1) 67%, rgba(55,11,6,1) 95%, rgba(40,3,2,1) 100%);
 }
 
 hr{
