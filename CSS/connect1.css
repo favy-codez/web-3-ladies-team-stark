@@ -20,11 +20,28 @@ a{
 
 .connect-1{
     background-color: #033B1F;
+    padding: 0 5rem 0rem 2rem;
+    width: 20%;
+}
+
+.connect-1-a img{
+    width: 3rem;
+    padding: 2rem 0 4rem 0;
 }
 
 .connect-2{
     background: rgb(3,69,36);
     background: linear-gradient(90deg, rgba(3,69,36,1) 31%, rgba(7,23,12,1) 49%, rgba(57,0,0,1) 100%);
+    width: 80%;
+}
+
+.container{
+    background: rgb(34,72,29);
+    background: linear-gradient(90deg, rgba(34,72,29,1) 31%, rgba(21,16,8,1) 49%, rgba(58,1,1,1) 100%);
+}
+
+.connect-wallet{
+    display: flex;
 }
 
 .nav2 input[type=text]{
@@ -37,4 +54,23 @@ a{
     background-image: url('/IMAGES/search-line.png');
     background-position: 10px ;
     background-repeat: no-repeat;
+}
+
+.connect-1-b{
+    display: flex;
+    flex-direction: column;
+    gap: 2.3rem;
+}
+
+.free-trial{
+    background-color: #35541B;
+    margin: 1rem 0;
+}
+
+#logout{
+    margin: 0 0 2rem 0;
+}
+
+.free-trial a{
+    color: #F4B40D;
 }
