@@ -132,9 +132,15 @@ button{
     padding: 6px 12px;
 }
 
+button a:hover{
+    color: #000;
+}
+
+
 button:hover{
     transition: 300ms;
-    background: transparent;
+    background: #F4B40D;
+    color: #000;
 }
 
 .container{
@@ -169,6 +175,10 @@ button:hover{
     color: #F4B40D;
 }
 
+.container #gold:hover{
+    color: #fff;
+}
+
 .container-2{
     padding: 2rem 0 1rem 0;
 }
@@ -177,4 +187,12 @@ button:hover{
     padding: 10px 0 0 0;
     font-size: 12px;
     font-weight: 200;
+}
+
+ #gold {
+    color: #F4B40D;
+}
+
+.container #gold:hover{
+    color: #fff;
 }
