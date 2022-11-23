@@ -26,6 +26,6 @@ Team members:
 * Github - [](https://github.com/) - (Web3)
 * Github - [](https://github.com/) - (Web3)
 * Linkedin - [Precious Austine-Ushie, "MD"](https://www.linkedin.com/in/precious-austine-ushie-m-d-131b24217/) - Product Manager
-* Github - [](https://github.com/) - Product Manager
+* Linkedin - [Toyibah Moradeke Badmus](https://www.linkedin.com/in/toyibah-badmus-027429228/) - Product Manager
 ## Acknowledgments
 I want to thank my team members for a work well done, our teachers, the organizers of Web3ladies program, the coordinators and God.
