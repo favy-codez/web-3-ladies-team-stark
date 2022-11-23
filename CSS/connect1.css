@@ -20,19 +20,20 @@ a{
 
 .connect-1{
     background-color: #033B1F;
-    padding: 0 5rem 0rem 2rem;
-    width: 20%;
+    padding: 0 1rem 0rem 3rem;
+    width: 15%;
+    color: #E5E5E5;
 }
 
 .connect-1-a img{
     width: 3rem;
-    padding: 2rem 0 4rem 0;
+    padding: 2rem 0 3rem 0;
 }
 
 .connect-2{
     background: rgb(3,69,36);
     background: linear-gradient(90deg, rgba(3,69,36,1) 31%, rgba(7,23,12,1) 49%, rgba(57,0,0,1) 100%);
-    width: 80%;
+    width: 85%;
 }
 
 .container{
@@ -59,18 +60,30 @@ a{
 .connect-1-b{
     display: flex;
     flex-direction: column;
-    gap: 2.3rem;
+    gap: 2.2rem;
 }
 
 .free-trial{
     background-color: #35541B;
     margin: 1rem 0;
+    width: 100%;
+    padding: 15px 3px;
 }
 
 #logout{
-    margin: 0 0 2rem 0;
+    margin: 0 0 3.5rem 0;
+}
+
+.free-trial{
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
 }
 
 .free-trial a{
     color: #F4B40D;
+}
+
+.free-trial a:hover{
+    text-decoration: underline;
 }
