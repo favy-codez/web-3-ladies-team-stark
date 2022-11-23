@@ -19,7 +19,7 @@ a{
 }
 
 hr{
-    border: #F4B400 0.1px solid;
+    border: #F4B400 0.1px groove;
 }
 
 .connect-1{
@@ -36,6 +36,12 @@ hr{
 
 .icon{
     font-size: 16px;
+    padding: 0 7px  0 0;
+    line-height: 30px;
+}
+
+.iconl{
+    font-size: 19px;
     padding: 0 7px  0 0;
     line-height: 30px;
 }
@@ -111,12 +117,19 @@ hr{
     background-repeat: no-repeat;
 }
 
+.container-btn{
+    display: grid;
+    place-items: center;
+}
+
 button{
     background: transparent;
     border:1px #F4B40D solid ;
-    font-size: 17px;
+    font-size: 13px;
     color: black;
-    margin-top: 20px;
+    margin: 20px auto 0 auto;
+    border-radius: 5px;
+    padding: 6px 12px;
 }
 
 button:hover{
@@ -128,7 +141,7 @@ button:hover{
     background: rgb(34,72,29);
     background: linear-gradient(90deg, rgba(34,72,29,1) 31%, rgba(21,16,8,1) 49%, rgba(58,1,1,1) 100%);
     max-width: 400px;
-    margin: 4rem auto 0 auto;
+    margin: 3rem auto 0 auto;
     padding: 1.5rem;
     border-radius: 15px;
 }
@@ -146,7 +159,7 @@ button:hover{
 }
 
 .container-1 p{
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 200;
     color: #EBEAEB;
     padding: 0 0 7px 0;
@@ -162,4 +175,6 @@ button:hover{
 
 .container-3 p{
     padding: 10px 0 0 0;
+    font-size: 12px;
+    font-weight: 200;
 }
