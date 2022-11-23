@@ -61,18 +61,6 @@ a{
     display: flex;
 }
 
-.nav2 input[type=text]{
-    width: 36%;
-    padding-left: 40px;
-    padding-right: 30px;
-    background-color: #EBEAEB;
-    border: none;
-    border-radius: 30px;
-    background-image: url('/IMAGES/search-line.png');
-    background-position: 10px ;
-    background-repeat: no-repeat;
-}
-
 .connect-1-b{
     display: flex;
     flex-direction: column;
@@ -88,7 +76,7 @@ a{
 }
 
 #logout{
-    margin: 0 0 3rem 0;
+    margin: 0 auto 3rem auto;
 }
 
 .free-trial{
@@ -103,4 +91,23 @@ a{
 
 .free-trial a:hover{
    color: #fff;
+}
+
+
+.nav2{
+    padding: 2rem 8rem 3rem 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav2 input[type=text]{
+    width: 50%;
+    padding: 12px 30px 12px 40px;
+    background-color: #EBEAEB;
+    border: none;
+    color: #000;
+    border-radius: 30px;
+    background-image: url('/IMAGES/search-line.png');
+    background-position: 10px ;
+    background-repeat: no-repeat;
 }
