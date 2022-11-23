@@ -136,6 +136,7 @@ button:hover{
 .container-2-3{
     display: flex;
     flex-direction: column;
+    gap: 2rem;
 }
 
 .container-1 h3{
@@ -148,8 +149,17 @@ button:hover{
     font-size: 10px;
     font-weight: 200;
     color: #EBEAEB;
+    padding: 0 0 7px 0;
 }
 
-.container a {
-    
+.container #gold {
+    color: #F4B40D;
+}
+
+.container-2{
+    padding: 2rem 0 1rem 0;
+}
+
+.container-3 p{
+    padding: 10px 0 0 0;
 }
