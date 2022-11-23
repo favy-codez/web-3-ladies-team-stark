@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    /* background: linear-gradient(90deg, rgba(1,41,22,1) 0%, rgba(40,42,22,1) 35%, rgba(35,2,1,1) 100%); */
+}
+
+/* ************** GENERAL STYLING ********************/
+a{
+    text-decoration: none;
+}
+
+::placeholder {
+    font-size: 13px;
+    color: #ABAAAA;
+    text-align: center;
+}
+
+.connect-1{
+    background-color: #033B1F;
+}
+
+.connect-2{
+    background: rgb(3,69,36);
+    background: linear-gradient(90deg, rgba(3,69,36,1) 31%, rgba(7,23,12,1) 49%, rgba(57,0,0,1) 100%);
+}
+
+.nav2 input[type=text]{
+    width: 36%;
+    padding-left: 40px;
+    padding-right: 30px;
+    background-color: #EBEAEB;
+    border: none;
+    border-radius: 30px;
+    background-image: url('/IMAGES/search-line.png');
+    background-position: 10px ;
+    background-repeat: no-repeat;
+}
