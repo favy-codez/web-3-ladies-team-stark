@@ -158,6 +158,10 @@ button:hover{
     gap: 2rem;
 }
 
+.container-2-3 a:hover{
+    color: #F4B400 ;
+}
+
 .container-1 h3{
     font-size: 1.7rem;
     font-weight: 400;
@@ -189,10 +193,7 @@ button:hover{
     font-weight: 200;
 }
 
- #gold {
+ #nav-middle:hover {
     color: #F4B40D;
 }
 
-.container #gold:hover{
-    color: #fff;
-}
