@@ -115,3 +115,34 @@ a:hover{
 
 
 /* media query */
+@media only screen and (max-width:992px){
+    main{
+       padding-top: 140px;
+    }
+    .form-section-1{
+        text-align: center;
+    }
+    .form-section-3{
+        justify-content: center;
+    }
+    .form-section-3-1, .logo2{
+        display: none;
+    }
+}
+@media only screen and (max-width:576PX){
+    input, button{
+        width: 376px;
+    }
+}
+@media only screen and (max-width:375px){
+    main{
+        padding: 40px;
+    }
+    input, button{
+        width: 250px;
+    }
+    .loginOptionsA, .loginOptionsB{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
