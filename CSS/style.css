@@ -23,8 +23,8 @@ span{
 }
 
 .color-one{
-    background: rgb(1,68,35);
-    background: linear-gradient(180deg, rgba(57,44,14) 67%, rgba(55,11,6,1) 95%, rgba(40,3,2,1) 100%);
+    background: rgb(0,64,33);
+    background: linear-gradient(90deg, rgba(0,64,33,1) 46%, rgba(14,63,33,1) 64%, rgba(31,48,25,1) 100%);
 }
 
 hr{
@@ -76,9 +76,9 @@ header{
     color: #000;
 }
 
-.nav2 input[type=text]:focus {
+/* .nav2 input[type=text]:focus {
     /* border:10px solid #F4B40D; */
-}
+
 
 #nav-btn{
     padding: 5px 20px;
