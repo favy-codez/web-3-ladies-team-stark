@@ -323,12 +323,18 @@ header{
 }
 
 .text-collect{
+    margin: 40px  0 0 0;
     line-height: 20px;
+    font-weight: 200;
+    font-size: 16px;
 }
 
-.text-collect #green-italics{
-    
+.text-collect #green-italics i{
     color: #2DBD72;
+}
+
+.text-collect #green-italics i:hover{
+    color: #F4B40D;
 }
  
 /* **************END OF SECTION-TWO STYLING********************/
