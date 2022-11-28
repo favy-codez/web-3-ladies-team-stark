@@ -274,6 +274,10 @@ header{
 /* **************END OF SECTION-ONE STYLING********************/
 
 /* **************SECTION-TWO STYLING********************/
+.color-two{
+    padding: 1rem 4rem 5rem 4rem;
+}
+
 .main-cards h3{
     color:  #F4B40D;
 }
@@ -299,6 +303,7 @@ header{
 
 .subcards-1, .subcards-2, .subcards-3{
     max-width: 250px;
+    height: 120px;
     margin: 1rem 0;
     border: 1px solid #fff;
     text-align: center;
@@ -308,9 +313,22 @@ header{
 
 .subcards-1 p, .subcards-2 p, .subcards-3 p{
     padding: 15px 30px;
+    line-height: 20px;
     font-weight: 100;
     font-size: 13px;
-    text-align: center;
+}
+
+.subcards-1 p{
+    line-height: 70px;
+}
+
+.text-collect{
+    line-height: 20px;
+}
+
+.text-collect #green-italics{
+    
+    color: #2DBD72;
 }
  
 /* **************END OF SECTION-TWO STYLING********************/
