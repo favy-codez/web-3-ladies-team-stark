@@ -274,56 +274,21 @@ header{
 /* **************END OF SECTION-ONE STYLING********************/
 
 /* **************SECTION-TWO STYLING********************/
-.h2-stylexx{
-    color: rgba(255, 255, 255, 1);
-    text-align: center;
-}
-.text-step{
+.main-cards h3{
     color:  #F4B40D;
-    text-align: justify;
-    
 }
+
 .main-cards{
     background: rgb(19,36,18);
     background: linear-gradient(90deg, rgba(19,36,18,1) 19%, rgba(50,34,18,1) 65%, rgba(53,10,6,1) 100%); 
-    height: 330px;
     border-radius: 10px;  
-    width: 1100px; 
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 8.7spx;
-}
- .card{ 
     display: flex;
-    flex-direction: row;
-}
-.span-step1{
-    color: #BEBEBE;
 }
 
-.steps-token{
-    flex: 1;
-    border: 1px solid #BEBEBE;
-    border-radius: 10px; 
-    width: 230px;
-    height: 140px;
+.h2-stylexx{
     text-align: center;
-    padding-top: 40px;
-    margin-top: 20px;
-    margin-left: 30px;
-    margin-right: 140px;
-    
 }
-
-  .text-stark{
-    color: #BEBEBE;
-    margin: 25px;
-  }
-  #green-italics{
-    text-decoration: none;
-    color: #27d581;
-  }
-
+ 
 /* **************END OF SECTION-TWO STYLING********************/
 
 /* **************SECTION-THREE STYLING********************/
