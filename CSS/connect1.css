@@ -52,7 +52,7 @@ hr{
     transition: 0.6s;
 }
 
-.connect-1-b a:hover{
+.connect-1-b a:hover, .connect-1-b a:focus{
     border: 1px solid #F4B40D;
 }
 

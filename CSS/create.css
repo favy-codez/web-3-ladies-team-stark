@@ -102,9 +102,11 @@ a:hover{
     width: 120px;
     margin: 65px auto 20px auto;
 }
+
 .loginOptionsA{
     margin-bottom: 20px;
 }
+
 .loginOptionsA, .loginOptionsB{
     display: flex;
     justify-content: space-between;
