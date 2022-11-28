@@ -282,10 +282,14 @@ header{
     color:  #F4B40D;
 }
 
-.main-cards{
-    background: rgb(19,36,18);
-    background: linear-gradient(90deg, rgba(19,36,18,1) 19%, rgba(50,34,18,1) 65%, rgba(53,10,6,1) 100%); 
+.main-card-section{
+    margin: 12px 0 0 0;
+    background: rgb(52,47,15);
+    background: linear-gradient(90deg, rgba(52,47,15,1) 11%, rgba(83,36,9,1) 46%, rgba(78,28,5,1) 100%);
     border-radius: 10px; 
+}
+
+.main-cards{
     margin: 14px 0;
     display: flex;
     justify-content: space-between;
