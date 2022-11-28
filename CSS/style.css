@@ -281,11 +281,35 @@ header{
 .main-cards{
     background: rgb(19,36,18);
     background: linear-gradient(90deg, rgba(19,36,18,1) 19%, rgba(50,34,18,1) 65%, rgba(53,10,6,1) 100%); 
-    border-radius: 10px;  
+    border-radius: 10px; 
+    margin: 14px 0;
     display: flex;
+    justify-content: space-between;
 }
 
 .h2-stylexx{
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.4rem;
+}
+
+.main-card-section{
+    padding: 1rem;
+}
+
+.subcards-1, .subcards-2, .subcards-3{
+    max-width: 250px;
+    margin: 1rem 0;
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.subcards-1 p, .subcards-2 p, .subcards-3 p{
+    padding: 15px 30px;
+    font-weight: 100;
+    font-size: 13px;
     text-align: center;
 }
  
