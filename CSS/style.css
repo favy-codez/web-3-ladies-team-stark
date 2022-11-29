@@ -526,6 +526,9 @@ header{
         width: 100%;
         line-height: 21px;
     }
+    .color-two{
+        padding: 2rem 0;
+    }
 }
 
 
