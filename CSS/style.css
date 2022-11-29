@@ -591,7 +591,16 @@ header{
         line-height: 30px;
     }
     .hero-section-partA p{
-        line-height: 30px;
+        line-height: 26px;
+    }
+    .section-how{
+        padding: 1rem 2rem;
+    }
+    .main-cards{
+        gap: 14px;
+    }
+    .subcards-1 p{
+        line-height: 12px;
     }
 } 
 @media only screen and (max-width:576px){
