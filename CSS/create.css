@@ -117,7 +117,7 @@ a:hover{
     border-radius: 100%;
 }
 
-.wallet{
+.wallet, .phantom, .meta, .coinbase{
     display: flex;
     line-height: 30px;
     gap: 12px;
