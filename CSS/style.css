@@ -361,28 +361,18 @@ header{
     width: 200px;
 }
 
-.section-three-a{
+.section-three-main{
     display: flex;
     flex-direction: column;
-    gap: 25px;
 }
 
-.section-three-b{
+.sec-3-1{
     display: flex;
-    flex-direction: column;
-    gap: 25px;
-    justify-content: center;
-    align-items: center;
+    gap: 20px;
 }
 
-.section-three-c{
+.sec-3-2{
     display: flex;
-    flex-direction: column;
-    gap: 25px;
-}
-
-.section-three{
-    text-align: center;
 }
 
 .section-three-b p{
@@ -530,7 +520,6 @@ header{
         padding: 2rem 0;
     }
 }
-
 
 @media only screen and (max-width:768px){
     header{
