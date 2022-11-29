@@ -34,11 +34,6 @@ span{
     background: linear-gradient(90deg, rgba(27,13,7,1) 13%, rgba(67,10,5,1) 28%, rgba(42,3,1,1) 100%);
 }
 
-.color-three{
-    background: rgb(27,13,7);
-    background: linear-gradient(90deg, rgba(27,13,7,1) 13%, rgba(67,10,5,1) 28%, rgba(42,3,1,1) 100%);
-}
-
 hr{
     display: block;
     border: #EBEAEB 0.5px;
@@ -356,8 +351,21 @@ header{
     display: flex;
 }
 
-.section-three-main img{
-    /* border-radius: 100%; */
+.color-three{
+    margin: 0 auto;
+}
+
+.section-three-b p{
+    background-color: #fff;
+    color: #000;
+    border-radius: 12px;
+    font-size: 12px;
+    width: 150px;
+}
+
+.section-three-main {
+    background: rgb(27,13,7);
+    background: linear-gradient(90deg, rgba(27,13,7,1) 13%, rgba(67,10,5,1) 28%, rgba(42,3,1,1) 100%);
 }
 
 #team-member-1{
@@ -644,8 +652,7 @@ header{
         text-align: left;
         margin-bottom: 1.5rem;
     }
-    .hero-buttons{
-    }
+    
     .hero-buttons button{
         width: 70px;
         height: 35px;
