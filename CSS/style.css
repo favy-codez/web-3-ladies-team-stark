@@ -276,7 +276,7 @@ header{
 /* **************END OF SECTION-ONE STYLING********************/
 
 /* **************SECTION-TWO STYLING********************/
-.color-two{
+.section-how{
     padding: 1rem 4rem 5rem 4rem;
 }
 
@@ -352,7 +352,7 @@ header{
 }
 
 .color-three{
-    margin: 0 auto;
+    
 }
 
 .section-three-b p{
@@ -361,11 +361,6 @@ header{
     border-radius: 12px;
     font-size: 12px;
     width: 150px;
-}
-
-.section-three-main {
-    background: rgb(27,13,7);
-    background: linear-gradient(90deg, rgba(27,13,7,1) 13%, rgba(67,10,5,1) 28%, rgba(42,3,1,1) 100%);
 }
 
 #team-member-1{
