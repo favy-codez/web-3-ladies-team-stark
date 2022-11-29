@@ -827,6 +827,27 @@ header{
     .section-one{
         flex-direction: column;
         gap: 50px;
+        padding: 1rem auto;
+    }
+    .section-one-partA h3{
+        font-size: 18px;
+    }
+    .section-one-partA p{
+        font-size: 18px;
+        line-height: 19px;
+    }
+    .section-one-partB h3{
+        font-size: 18px;
+    }
+    .section-one-partB p{
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .featured-section{
+        gap: 2rem;
+    }
+    .section-one-partB span a{
+        font-size: 13px;
     }
     .section-one-partA{
         width: auto;
@@ -849,6 +870,21 @@ header{
     .section-three-b p{
         width: 180px;
     }
-    .sec-3-2
+    .sec-3-2{
+        gap: 4rem;
+        margin: 0 0 0 35px;
+    }
+    .section-three-a{
+        gap: 4rem;
+    }
+    .section-three-c{
+        gap: 4rem;
+    }
+    .main-cards{
+        flex-direction: column;
+    }
+    .text-collect{
+        font-size: 13px;
+    }
 }
 /* **************END OF MEDIA QUERY STYLING********************/
