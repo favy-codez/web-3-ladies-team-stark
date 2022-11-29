@@ -110,9 +110,12 @@ a:hover{
 .loginOptionsA, .loginOptionsB{
     display: flex;
     justify-content: space-between;
-
 }
 
+#wallet-icon{
+    width: 35px;
+    border-radius: 100%;
+}
 
 /* media query */
 @media only screen and (max-width:992px){
