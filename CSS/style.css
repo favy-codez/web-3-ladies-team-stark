@@ -375,13 +375,20 @@ header{
     display: flex;
 }
 
+.section-three-a{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
 .section-three-b p{
-    padding: 40px 15px;
+    padding: 40px 13px;
     background-color: #fff;
     color: #000;
     border-radius: 10px;
     font-size: 12px;
     width: 280px;
+    text-align: center;
 }
 
 .main-part-3{
