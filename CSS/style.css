@@ -810,14 +810,19 @@ header{
 }
 @media only screen and (max-width:375px){
     header{
-        padding: 35px;
+        padding: 2rem 2rem 1rem 2rem;
     }
     .hero-section{
         flex-direction: column;
         margin: 20px;
     }
     .hero-section-partA {
-        width: 270px;
+        width: 100%;
+        padding: 2rem 2rem 1rem 2rem;
+        text-align: center;
+    }
+    .hero-section-partA p{
+        line-height: 13px;
     }
     .section-one{
         flex-direction: column;
@@ -838,5 +843,12 @@ header{
     .footer-section-2 img{
         width: 90px;
     }
+    .main-part-3{
+        max-width: 330px;
+    }
+    .section-three-b p{
+        width: 180px;
+    }
+    .sec-3-2
 }
 /* **************END OF MEDIA QUERY STYLING********************/
