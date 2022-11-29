@@ -351,16 +351,17 @@ header{
     display: flex;
 }
 
-.color-three{
-    
-}
-
 .section-three-b p{
     background-color: #fff;
     color: #000;
     border-radius: 12px;
     font-size: 12px;
     width: 150px;
+}
+
+.main-part-3{
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 #team-member-1{
