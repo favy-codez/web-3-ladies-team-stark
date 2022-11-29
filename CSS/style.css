@@ -587,6 +587,12 @@ header{
         margin-top: 70px;
         text-align: center;
     }
+    .hero-section-partA h2{
+        line-height: 30px;
+    }
+    .hero-section-partA p{
+        line-height: 30px;
+    }
 } 
 @media only screen and (max-width:576px){
     header{
