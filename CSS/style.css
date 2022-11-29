@@ -351,6 +351,14 @@ header{
     display: flex;
 }
 
+.main-part-3 h2{
+    border-bottom: 1px solid #F4B40D;
+}
+
+.section-three{
+    text-align: center;
+}
+
 .section-three-b p{
     background-color: #fff;
     color: #000;
