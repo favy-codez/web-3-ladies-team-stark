@@ -352,7 +352,17 @@ header{
 /* **************END OF SECTION-TWO STYLING********************/
 
 /* **************SECTION-THREE STYLING********************/
+.section-three-main{
+    display: flex;
+}
 
+.section-three-main img{
+    border-radius: 100%;
+}
+
+#team-member-1{
+    
+}
 
 /* **************END OF SECTION-THREE STYLING********************/
 
