@@ -373,6 +373,8 @@ header{
 
 .sec-3-2{
     display: flex;
+    gap:6rem;
+    margin: 0 0 0 28px;
 }
 
 .section-three-a{
@@ -381,7 +383,14 @@ header{
     gap: 32px;
 }
 
+.section-three-c{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
 .section-three-b p{
+    margin: 32px 0 0 0;
     padding: 40px 13px;
     background-color: #fff;
     color: #000;
@@ -407,12 +416,12 @@ header{
 }
 
 #team-member-3{
-    width: 55px;
+    width: 50px;
     border-radius: 47%;
 }
 
 #team-member-4{
-    width: 50px;
+    width: 45px;
     border-radius: 30%;
 }
 
@@ -427,8 +436,8 @@ header{
 }
 
 #team-member-7{
-    width: 60px;
-    border-radius: 50%;
+    width: 50px;
+    border-radius: 30%;
 }
 
 /* **************END OF SECTION-THREE STYLING********************/
