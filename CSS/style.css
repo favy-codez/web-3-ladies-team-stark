@@ -381,7 +381,12 @@ header{
 }
 
 #team-member-5{
-    width: 30px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+#team-member-6{
+    width: 40px;
     border-radius: 50%;
 }
 
