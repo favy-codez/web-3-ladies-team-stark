@@ -47,9 +47,11 @@ hr{
 }
 
 .connect-1-b a{
-    margin: 0 auto;
+    display: inline-block;
     padding: 0 6px;
     transition: 0.6s;
+    width: 150px;
+    border-radius: 8px;
 }
 
 .connect-1-b a:hover, .connect-1-b a:focus{
