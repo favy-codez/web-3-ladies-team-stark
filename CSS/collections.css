@@ -310,6 +310,14 @@ span{
     .started-part p{
         width: 100%;
     }
+    .started-part{
+        gap: 2rem;
+    }
+
+/* second part */
+.container-part-c{
+    max-width: 400px;
+}
 }
 
 @media only screen and (max-width:576px){
@@ -386,4 +394,18 @@ span{
         transition: 300ms;
     }
     /* end of hamburger */
+
+    /* second part */
+.container-part-c{
+    max-width: 400px;
+}
+.container-1{
+    margin: 2.2rem 3rem 0 3rem;
+}
+.container-2{
+    margin: 2.2rem 3rem 0 3rem;
+}
+.container-part-c{
+    
+}
 }
