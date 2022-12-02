@@ -101,7 +101,7 @@ a{
 /* end of common styling */
 
 .container-part-a{
-    color: #4c3111;
+    background-color: #443D16;
 }
 
 #hip-pic{
@@ -112,4 +112,11 @@ a{
     background-color:  #564A1A;
 }
 
+.container-1{
+    margin: 0 30px;
+}
 
+.container-part-a{
+    display: flex;
+   
+}
