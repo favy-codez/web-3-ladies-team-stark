@@ -104,7 +104,12 @@ a{
     color: #4c3111;
 }
 
-/* 564A1A */
-{
-    ba
+#hip-pic{
+    width: 300px;
 }
+
+#tweet{
+    background-color:  #564A1A;
+}
+
+
