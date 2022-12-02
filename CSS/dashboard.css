@@ -303,6 +303,7 @@ hr{
 /* 3rd row */
 .create-text{
     display: flex;
+    justify-content: space-between;
 }
 
 .create-a{
@@ -319,6 +320,16 @@ hr{
 
 .create-main-1{
     background-color: #fff;
-    color: #fff;
+    color: #000;
+    width: 400px;
+    margin: 0 0 1rem 0;
 }
 
+.create-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.create-box-1 p{
+    color: #000;
+}
