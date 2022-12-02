@@ -108,7 +108,7 @@ hr{
 }
 
 .nav2{
-    padding: 2rem 8rem 3rem 10rem;
+    padding: 2rem 8rem 0rem 10rem;
     display: flex;
     justify-content: space-between;
 }
