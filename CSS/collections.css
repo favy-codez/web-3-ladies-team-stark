@@ -85,3 +85,15 @@ a{
 #logout{
     margin: 0 auto 3rem auto;
 }
+
+.connect-1-b a{
+    margin: 0 auto;
+    padding: 0 6px;
+    transition: 0.6s;
+}
+
+#nav-middle:hover {
+    color: #F4B40D;
+}
+
+/* end of common styling */
