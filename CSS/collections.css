@@ -420,4 +420,7 @@ span{
     .container-part-c{
         max-width: 300px;
     }
+    .direct{
+        padding: 0;
+    }
 }

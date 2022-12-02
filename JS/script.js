@@ -8,7 +8,7 @@ const searchIcon= () => {
 }
 
 const hamburgerIcon= function () {
-    document.getElementById("hamburger-menu").style.width = "35%";
+    document.getElementById("hamburger-menu").style.width = "90%";
   }
 const closeIcon = function() {
     document.getElementById("hamburger-menu").style.width = "0%";
