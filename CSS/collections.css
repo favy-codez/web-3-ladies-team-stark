@@ -28,6 +28,14 @@ html, body{
     width: 85%;
 }
 
+#hamburger-menu{
+    display: none;
+}
+
+.nav-mobile{
+    display: none;
+}
+
 .collections-section{
     display: flex;
 }
@@ -265,4 +273,80 @@ html, body{
 
 span{
     font-size: 9px;
+}
+
+/* **************************************** mediaquery **************************************/
+@media only screen and (max-width:576px){
+    header{
+        padding: 50px;
+    }
+    .nav-section{
+        justify-content: space-between;
+    }
+    .nav1{
+        order: 1;
+        line-height: 70px;
+    }
+    .nav-mobile{
+        display: flex;
+        gap: 10px;
+        order: 3;
+    }
+    .nav-mobile a{
+        display: inline-block;
+        width: 40px;
+        line-height: 50px;
+    }
+    .nav2{
+        order: 2;
+    }
+    #search-bar{
+        width: 280px;
+        height: 40px;
+        margin-top: 5px;
+        padding-left: 30px;
+        transition: 1000ms;
+    }
+    #search-bar, #nav-middle, #nav-btn{
+        display:none;
+        
+    }
+    #hamburger-menu{
+        display: unset;
+        height: 100%;
+        width: 0%;
+        position: fixed;
+        z-index: 1;
+        right: 0;
+        top: 0;
+        backdrop-filter: blur(4px);
+        background-color: rgba(0,0,0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s; 
+    }
+    .close{
+        position: absolute;
+        top: 3%;
+        right: 5%;
+    }
+    .hamburger-content{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        position: relative;
+        top: 7%;
+        width: 100%;
+        margin-left: 30px; 
+    }
+    #hamburger-btn{
+        padding: 5px 20px;
+        background-color: transparent;
+        border: 2px solid #F4B40D;
+        border-radius: 10px;
+        color: #fff;
+    }
+    #nav-hamburger:hover{
+        color: #F4B40D;
+        transition: 300ms;
+    }
 }
