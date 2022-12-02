@@ -56,7 +56,7 @@ html, body{
 }
 
 .nav2{
-    padding: 2rem 8rem 0rem 10rem;
+    padding: 2rem 3rem 0rem 3rem;
     display: flex;
     justify-content: space-between;
 }
@@ -150,8 +150,22 @@ html, body{
 }
 
 /* connect-2-3*/
+.connect-2-3{
+    padding: 2rem 4rem 0rem 4rem;
+}
 
 #profile{
     width: 25px;
     border-radius: 100px;
+}
+
+.connect-2-3-main-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 1.2rem 0;
+}
+
+.connect-2-3-a{
+    display: flex;
+    justify-content: space-between;
 }
