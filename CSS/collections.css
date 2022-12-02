@@ -245,3 +245,19 @@ a{
     justify-content: space-between;
     padding: 0 23px 0 0;
 }
+
+.part-1-a{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.part-1-b{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+span{
+    font-size: 9px;
+}
