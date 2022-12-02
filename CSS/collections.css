@@ -113,10 +113,13 @@ a{
 }
 
 .container-1{
-    margin: 0 30px;
+    margin: 2.2rem 7rem 0 7rem;
 }
 
 .container-part-a{
     display: flex;
-   
+}
+
+.container-1 h3{
+
 }
