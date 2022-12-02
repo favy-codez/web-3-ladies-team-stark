@@ -277,9 +277,31 @@ span{
 
 /* **************************************** mediaquery **************************************/
 @media only screen and (max-width:992px){
-.connect-1 {
-        padding: 0 1rem 0rem 3rem;
+    .connect-1 {
+        padding: 0 1rem 0rem 1rem;
+    }
 }
+
+@media only screen and (max-width:768px){
+    .container-part-a{
+        flex-direction: column;
+    }
+    .started-part{
+        flex-direction: column;
+    }
+    .container-part-b{
+        padding: ;
+        text-align: center;
+    }
+    #text-1{
+        width: 100%;
+    }
+    #hip-pic{
+        width: 100%;
+    }
+    .tweet{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width:576px){
