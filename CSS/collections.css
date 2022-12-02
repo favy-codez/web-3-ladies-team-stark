@@ -64,3 +64,21 @@ a{
     width: 6rem;
     padding: 2rem 0 2rem  3rem;
 }
+
+.free-trial{
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+
+.free-trial a{
+    color: #F4B40D;
+}
+
+.free-trial a:hover{
+   color: #fff;
+}
+
+#logout{
+    margin: 0 auto 3rem auto;
+}
