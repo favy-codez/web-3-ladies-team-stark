@@ -290,7 +290,7 @@ span{
         flex-direction: column;
     }
     .container-part-b{
-        padding: ;
+        padding:20px;
         text-align: center;
     }
     #text-1{
@@ -300,6 +300,14 @@ span{
         width: 100%;
     }
     .tweet{
+        width: 100%;
+        padding: 10px 30px ;
+    }
+    .tweet-part-a, .tweet-part-b{
+        justify-content: center;
+        align-items: center;
+    }
+    .started-part p{
         width: 100%;
     }
 }
