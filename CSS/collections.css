@@ -37,3 +37,14 @@ hr{
     background-position: 10px ;
     background-repeat: no-repeat;
 }
+
+.connect-1-b{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: left;
+}
+
+.connect-1-b a:hover, .connect-1-b a:focus{
+    border: 1px solid #F4B40D;
+}
