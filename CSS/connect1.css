@@ -66,6 +66,17 @@ hr{
     display: flex;
 }
 
+#wallet-icon{
+    width: 35px;
+    border-radius: 100%;
+}
+
+.wallet, .phantom, .meta, .coinbase{
+    display: flex;
+    line-height: 30px;
+    gap: 12px;
+}
+
 .connect-1-b{
     display: flex;
     flex-direction: column;
