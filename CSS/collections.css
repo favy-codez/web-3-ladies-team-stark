@@ -178,8 +178,17 @@ a{
     gap: 1.3rem;
 }
 
+.started-part p{
+    font-size: 16px;
+    font-weight: 100;
+    width: 60%;
+}
+
 .started-part button{
     background-color: #F4B400; 
     border: none;
     color: #000;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-weight: 800;
 }
