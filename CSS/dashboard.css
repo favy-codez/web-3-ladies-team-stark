@@ -149,4 +149,9 @@ html, body{
     /* border-radius: 100px; */
 }
 
-/* connect-3 */
+/* connect-2-3*/
+
+#profile{
+    width: 25px;
+    border-radius: 100px;
+}
