@@ -66,6 +66,9 @@ a{
 }
 
 .free-trial{
+    background-color: #35541B;
+    margin: 1rem 0;
+    padding: 15px 3px;
     font-size: 14px;
     width: 100%;
     text-align: center;
