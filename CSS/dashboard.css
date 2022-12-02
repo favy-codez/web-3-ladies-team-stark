@@ -21,6 +21,9 @@ span{
     text-align: center;
 }
 
+.dashboard-section{
+    display: flex;
+}
 
 html, body{
     overflow-x: hidden;
@@ -124,3 +127,24 @@ html, body{
 }
 
 /* end of common styling */
+#profil-pics{
+    width: 30px;
+    border-radius: 100px;
+}
+
+.nav-mid{
+    display: flex;
+    border-radius: 12px;
+    padding:2px 6px;
+    background-color: #2A3A15;
+}
+
+.nav-mid P{
+    line-height: 40px;
+    font-size: 14px;
+}
+
+#splash{
+    width: 40px;
+    /* border-radius: 100px; */
+}
