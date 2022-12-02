@@ -353,10 +353,25 @@ hr{
 }
 
 .create-b{
-    max-width: 400px;
-    max-height: 300px;
+    max-width: 600px;
+    max-height: 100px;
     background-color: #6a2603;
     display: flex;
-    gap: 14px;
-    padding: 20px 12px 15px 12px;
+    gap: 1.6rem;
+    padding: 20px 2rem 15px 2rem;
+    margin: 2rem 0 0 0;
+}
+
+.create-b-box-a{
+    padding: 12px 0 0 0;
+}
+
+.create-b-box-a h4{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.create-b-box-a p{
+    font-size: 8px;
+    font-weight: 200;
 }
