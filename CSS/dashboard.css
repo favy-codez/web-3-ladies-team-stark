@@ -308,3 +308,17 @@ hr{
 .create-a{
     max-width: 400px;
 }
+
+#photo-1{
+    width: 80px;
+}
+
+#photo-2{
+    width: 80px;
+}
+
+.create-main-1{
+    background-color: #fff;
+    color: #fff;
+}
+
