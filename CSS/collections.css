@@ -211,10 +211,22 @@ a{
     border-radius: 10px;
     padding: 10px;
     display: flex;
-    margin: 0rem 0;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 22px 0 0 0;
 }
 
 .container-part-c img{
     width: 40px;
 }
 
+.part-1{
+    display: flex;
+    gap: 2rem;
+}
+
+.direct{
+    display: flex;
+    gap: 4rem;
+    /* justify-content: space-between; */
+}
