@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+
+/* ************** GENERAL STYLING ********************/
+a{
+    text-decoration: none;
+}
+
+span{
+    color: #F4B40D;
+}
+
+::placeholder {
+    font-size: 13px;
+    color: #ABAAAA;
+    text-align: center;
+}
+
+
+html, body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}

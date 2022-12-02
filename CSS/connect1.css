@@ -22,6 +22,11 @@ hr{
     border: #F4B400 0.1px groove;
 }
 
+html, body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
 .connect-1{
     background-color: #033B1F;
     padding: 0 1rem 0rem 3rem;

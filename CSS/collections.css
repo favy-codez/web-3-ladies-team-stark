@@ -10,6 +10,11 @@ a{
     text-decoration: none;
 }
 
+html, body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
 .connect-1{
     background-color: #033B1F;
     padding: 0 1rem 0rem 3rem;
@@ -207,11 +212,11 @@ a{
     color: #fff;
 }
 
-.container-2 #view-link{
+#view{
     text-decoration: dashed !important;
 }
 
-.container-2 #view-link:hover{
+#view:hover{
     color: #F4B40D;
 }
 
