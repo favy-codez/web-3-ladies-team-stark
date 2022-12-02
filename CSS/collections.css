@@ -113,7 +113,7 @@ a{
     color: #fff;
     border-radius: 10px;
     margin: 14px 0 17px 0;
-    width: 180px;
+    width: 200px;
     padding: 10px;
 }
 
@@ -162,6 +162,24 @@ a{
 }
 
 .tweet-part-a{
+    margin:  0 0 7px  0;
     display: flex;
-    gap: 6px;
+    gap: 8px;
+}
+
+.ri-check-line{
+    background-color: rgb(44, 44, 179);
+    color: #fff;
+    border-radius: 100px;
+}
+
+.started-part{
+    display: flex;
+    gap: 1.3rem;
+}
+
+.started-part button{
+    background-color: #F4B400; 
+    border: none;
+    color: #000;
 }
