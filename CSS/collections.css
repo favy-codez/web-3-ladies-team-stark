@@ -4,5 +4,31 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     color: #fff;
-    /* background: linear-gradient(90deg, rgba(1,41,22,1) 0%, rgba(40,42,22,1) 35%, rgba(35,2,1,1) 100%); */
+}
+
+.connect-2{
+    background: rgb(3,69,36);
+    background: linear-gradient(135deg, rgba(3,69,36,1) 31%, rgba(7,23,12,1) 49%, rgba(57,0,0,1) 100%);
+    width: 85%;
+}
+
+.nav2 input[type=text]{
+    width: 50%;
+    padding: 12px 30px 12px 40px;
+    background-color: #EBEAEB;
+    border: none;
+    color: #000;
+    border-radius: 30px;
+    background-image: url('/IMAGES/search-line.png');
+    background-position: 10px ;
+    background-repeat: no-repeat;
+}
+
+.container{
+    background: rgb(34,72,29);
+    background: linear-gradient(90deg, rgba(34,72,29,1) 31%, rgba(21,16,8,1) 49%, rgba(58,1,1,1) 100%);
+    max-width: 400px;
+    margin: 3rem auto 0 auto;
+    padding: 1.5rem;
+    border-radius: 15px;
 }
