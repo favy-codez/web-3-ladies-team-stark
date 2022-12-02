@@ -123,6 +123,20 @@ a{
     border-radius: 10px;
 }
 
+.container-part-b{
+    padding: 2rem 12px 0 0;
+}
+
+.container-part-b h4{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.container-part-b p{
+    font-size: 12px;
+    font-weight: 100;
+}
+
 .container-1 h3{
     font-size: 1.7rem;
     font-weight: 200;
