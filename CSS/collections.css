@@ -394,6 +394,12 @@ span{
         transition: 300ms;
     }
     /* end of hamburger */
+    .connect-1{
+        padding: 2rem 0;
+    }
+    .connect-2{
+        padding: 2rem 0;
+    }
 
     /* second part */
 .container-part-c{
@@ -411,6 +417,12 @@ span{
 }
 
 @media only screen and (max-width:375px){
+    .connect-1{
+        padding: 1rem 0;
+    }
+    .connect-2{
+        padding: 1rem 0;
+    }
     .container-1{
         margin: 2.2rem 1rem 0 1rem;
     }
