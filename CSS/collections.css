@@ -3,10 +3,11 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    color: #fff;
 }
 
-hr{
-    border: #F4B400 0.1px groove;
+a{
+    text-decoration: none;
 }
 
 .connect-1{
@@ -24,6 +25,16 @@ hr{
 
 .collections-section{
     display: flex;
+}
+
+.nav2{
+    padding: 2rem 8rem 3rem 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav2 a{
+    line-height: 40px;
 }
 
 .nav2 input[type=text]{
@@ -47,4 +58,9 @@ hr{
 
 .connect-1-b a:hover, .connect-1-b a:focus{
     border: 1px solid #F4B40D;
+}
+
+.connect-1-a img{
+    width: 6rem;
+    padding: 2rem 0 2rem  3rem;
 }
