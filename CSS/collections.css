@@ -276,6 +276,12 @@ span{
 }
 
 /* **************************************** mediaquery **************************************/
+@media only screen and (max-width:992px){
+.connect-1 {
+        padding: 0 1rem 0rem 3rem;
+}
+}
+
 @media only screen and (max-width:576px){
     header{
         padding: 50px;
@@ -349,4 +355,5 @@ span{
         color: #F4B40D;
         transition: 300ms;
     }
+    /* end of hamburger */
 }
