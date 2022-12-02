@@ -108,8 +108,14 @@ a{
     width: 300px;
 }
 
-#tweet{
-    background-color:  #564A1A;
+.tweet{
+    background-color:  #3b300d;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.tweet-part-b{
+    display: flex;
 }
 
 .container-1{
@@ -130,6 +136,14 @@ a{
 .container-part-b h4{
     font-size: 19px;
     font-weight: 600;
+    margin: 0 0 15px 0 ;
+}
+
+#text-1{
+    font-size: 15px;
+    width: 76%;
+    line-height: 20px;
+    font-weight: 100;
 }
 
 .container-part-b p{
