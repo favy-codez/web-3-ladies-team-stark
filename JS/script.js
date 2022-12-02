@@ -1,4 +1,3 @@
-
 const searchIcon= () => {
     let x = document.getElementById("search-bar");
     if (x.style.display == "block") {

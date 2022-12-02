@@ -112,8 +112,14 @@ header{
 #nav-middle:active{
     border-bottom:1px solid #F4B40D;
 }
+.nav-mobile{
+    display: none;
+}
 
 /* ************** END OF HEADER STYLING ********************/
+#hamburger-menu{
+    display: none;
+}
 
 /* ************** HERO-SECTION STYLING ********************/
 .hero-section{
