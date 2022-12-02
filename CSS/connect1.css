@@ -116,6 +116,10 @@ hr{
     justify-content: space-between;
 }
 
+.nav2 a{
+    line-height: 40px;
+}
+
 .nav2 input[type=text]{
     width: 50%;
     padding: 12px 30px 12px 40px;
@@ -155,8 +159,9 @@ button:hover{
 }
 
 .container{
-    background: rgb(34,72,29);
-    background: linear-gradient(90deg, rgba(34,72,29,1) 31%, rgba(21,16,8,1) 49%, rgba(58,1,1,1) 100%);
+    background: rgba(34,72,29,0.3);
+    /* background: linear-gradient(90deg, rgba(34,72,29,1) 31%, rgba(21,16,8,1) 49%, rgba(58,1,1,1) 100%); */
+    backdrop-filter: blur(8px);
     max-width: 400px;
     margin: 3rem auto 0 auto;
     padding: 1.5rem;
