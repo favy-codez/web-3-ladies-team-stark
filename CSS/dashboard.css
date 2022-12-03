@@ -385,18 +385,14 @@ hr{
 }
 
 /* * **************************************** mediaquery **************************************/
-@media only screen and (max-width:992px){
-    .connect-2-3{
-        padding: 2rem 2rem 0 10px;
-    }
-} 
 
 @media only screen and (max-width:992px){
     .connect-2-3{
         padding: 2rem 2rem 0 2rem;
     }
      .connect-2-3-a{
-        flex-wrap:wrap ;
+        flex-wrap: wrap;
+        justify-content: space-around;
      }
      .third-dash{
         display: block;
@@ -412,4 +408,19 @@ hr{
      .create-b{
         gap: 6rem;
      }
+     .connect-2-3-b{
+        
+     }
+}
+
+@media only screen and (max-width:768px){
+
+}
+
+@media only screen and (max-width:576px){
+
+}
+
+@media only screen and (max-width:375px){
+
 }
