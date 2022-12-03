@@ -383,3 +383,10 @@ hr{
     font-size: 8px;
     font-weight: 200;
 }
+
+/* * **************************************** mediaquery **************************************/
+@media only screen and (max-width:992px){
+    .connect-2-3{
+        padding: 2rem 2rem 0 1rem;
+    }
+} 
