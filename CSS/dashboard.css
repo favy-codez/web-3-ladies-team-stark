@@ -414,6 +414,9 @@ hr{
         justify-content: center;
         align-items: center;
      }
+     .part-b-dash-a{
+        gap: 14px;
+     }
 }
 
 @media only screen and (max-width:768px){
@@ -421,7 +424,8 @@ hr{
 }
 
 @media only screen and (max-width:576px){
-
+    .part-b-dash-a{
+    }
 }
 
 @media only screen and (max-width:375px){
