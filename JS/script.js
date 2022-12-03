@@ -13,3 +13,10 @@ const hamburgerIcon= function () {
 const closeIcon = function() {
     document.getElementById("hamburger-menu").style.width = "0%";
   }
+
+  const hamburgerIcon2 = () =>{
+    document.getElementById("connect-one").style.width = "100%"
+  }
+  const closeIcon2 = () =>{
+    document.getElementById("connect-one").style.width = "0%"
+  }

@@ -26,6 +26,19 @@ html, body{
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
+#logo{
+    display: none;
+}
+#cancel{
+    display: none;
+}
+#hamburger-menu{
+    display: none;
+}
+
+.nav-mobile{
+    display: none;
+}
 
 .connect-1{
     background-color: #033B1F;
@@ -218,4 +231,133 @@ button:hover{
 /* **************************************** mediaquery **************************************/
 @media only screen and (max-width:992px){
     
+}
+@media only screen and (max-width:576px){
+   
+    header{
+        padding: 50px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 40px;
+    }
+    .nav-mobile{
+        display: flex;
+        gap: 10px;
+    }
+    .nav-mobile a{
+        display: inline-block;
+        width: 40px;
+        line-height: 50px;
+    }
+    .nav2{
+        padding-right: 0;
+        padding-top: 0;
+
+    }
+    #search-bar{
+        width: 280px;
+        height: 40px;
+        margin-top: 5px;
+        padding-left: 30px;
+        transition: 1000ms;
+    }
+    #search-bar, #nav-middle, #nav-btn{
+        display:none;
+        
+    }
+    #hamburger-menu{
+        display: unset;
+        height: 100%;
+        width: 0%;
+        position: fixed;
+        z-index: 1;
+        right: 0;
+        top: 0;
+        backdrop-filter: blur(4px);
+        background-color: rgba(0,0,0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s; 
+    }
+    #cancel{
+        display: block;
+        position: absolute;
+        top: 3%;
+        right: -7%;
+    }
+    .hamburger-content{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        position: relative;
+        top: 7%;
+        width: 100%;
+        margin-left: 30px; 
+    }
+    #hamburger-btn{
+        padding: 5px 20px;
+        background-color: transparent;
+        border: 2px solid #F4B40D;
+        border-radius: 10px;
+        color: #fff;
+    }
+    #nav-hamburger:hover{
+        color: #F4B40D;
+        transition: 300ms;
+    }
+    .connect-1-b a:hover{
+        border: none;
+    }
+    /* end of hamburger */
+    .collections-section{
+        position: relative;
+    }
+    #logo{
+        position: absolute;
+        display: block;
+    }
+    .connect-1{
+        padding: 2rem 0;
+        width: 0%;
+        display: unset;
+        height: 100%;
+        width: 0%;
+        position: fixed;
+        z-index: 1;
+        right: 0;
+        top: 0;
+        backdrop-filter: blur(4px);
+        background-color: rgba(0,0,0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s; 
+        text-align: center;
+        
+    }
+    .connect-1-b{
+        
+    }
+    .connect-1-b a{
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 25px;
+    }
+    .connect-2{
+        padding: 2rem 0;
+        width: 100%;
+    }
+
+    /* second part */
+.container-part-c{
+    max-width: 400px;
+}
+.container-1{
+    margin: 2.2rem 3rem 0 3rem;
+}
+.container-2{
+    margin: 2.2rem 3rem 0 3rem;
+}
+.container-part-c{
+    margin: 0px 0 0 0rem;
+}
 }

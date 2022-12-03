@@ -27,7 +27,12 @@ html, body{
     background: linear-gradient(135deg, rgba(3,69,36,1) 31%, rgba(7,23,12,1) 49%, rgba(57,0,0,1) 100%);
     width: 85%;
 }
-
+#logo{
+    display: none;
+}
+#cancel{
+    display: none;
+}
 #hamburger-menu{
     display: none;
 }
@@ -275,21 +280,6 @@ span{
     font-size: 9px;
 }
 
-/* ham */
-#logo{
-    display: none;
-}
-#cancel{
-    display: none;
-}
-#hamburger-menu{
-    display: none;
-}
-
-.nav-mobile{
-    display: none;
-/* ham end */
-
 /* **************************************** mediaquery **************************************/
 @media only screen and (max-width:992px){
     .connect-1 {
@@ -336,21 +326,18 @@ span{
 }
 
 @media only screen and (max-width:576px){
-    /* ham */
+   
     header{
         padding: 50px;
     }
-    .nav-section{
+    nav{
+        display: flex;
         justify-content: space-between;
-    }
-    .nav1{
-        order: 1;
-        line-height: 70px;
+        margin-right: 40px;
     }
     .nav-mobile{
         display: flex;
         gap: 10px;
-        order: 3;
     }
     .nav-mobile a{
         display: inline-block;
@@ -358,7 +345,9 @@ span{
         line-height: 50px;
     }
     .nav2{
-        order: 2;
+        padding-right: 0;
+        padding-top: 0;
+
     }
     #search-bar{
         width: 280px;
@@ -384,10 +373,11 @@ span{
         overflow-x: hidden;
         transition: 0.5s; 
     }
-    .close{
+    #cancel{
+        display: block;
         position: absolute;
         top: 3%;
-        right: 5%;
+        right: -7%;
     }
     .hamburger-content{
         display: flex;
@@ -409,12 +399,45 @@ span{
         color: #F4B40D;
         transition: 300ms;
     }
+    .connect-1-b a:hover{
+        border: none;
+    }
     /* end of hamburger */
+    .collections-section{
+        position: relative;
+    }
+    #logo{
+        position: absolute;
+        display: block;
+    }
     .connect-1{
         padding: 2rem 0;
+        width: 0%;
+        display: unset;
+        height: 100%;
+        width: 0%;
+        position: fixed;
+        z-index: 1;
+        right: 0;
+        top: 0;
+        backdrop-filter: blur(4px);
+        background-color: rgba(0,0,0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s; 
+        text-align: center;
+        
+    }
+    .connect-1-b{
+        
+    }
+    .connect-1-b a{
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 35px;
     }
     .connect-2{
         padding: 2rem 0;
+        width: 100%;
     }
 
     /* second part */
