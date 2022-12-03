@@ -29,6 +29,19 @@ html, body{
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
+#logo{
+    display: none;
+}
+#cancel{
+    display: none;
+}
+#hamburger-menu{
+    display: none;
+}
+
+.nav-mobile{
+    display: none;
+}
 
 .connect-1{
     background-color: #033B1F;
