@@ -425,6 +425,7 @@ hr{
 
 @media only screen and (max-width:576px){
     .part-b-dash-a{
+        flex-direction: column;
     }
 }
 
