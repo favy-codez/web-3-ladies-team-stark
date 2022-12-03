@@ -216,6 +216,10 @@ html, body{
     color: #9e9393;
 }
 
+#eth-1:hover{
+    color: rgb(244,194,13);
+}
+
 #eth-2{
     font-size: 15px;
     color: #DFDFDF;
