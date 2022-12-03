@@ -440,5 +440,32 @@ hr{
 }
 
 @media only screen and (max-width:375px){
-
+    .connect-2-3-main-text h3{
+        font-size: 14px;
+    }
+    .part-b-dash-a{
+        width: 200px;
+        margin: 0 2rem;
+    }
+    .most{
+        width: 230px;
+        flex-wrap: wrap;
+    }
+    .collect{
+        display: block;
+        margin: 14px auto 0 auto;
+    }
+    .most-sec{
+       text-align: center;
+    }
+    .create-main-1{
+        max-width: 250px;
+    }
+    .create-box{
+        flex-wrap: wrap;
+        margin: 10px 0 0 0;
+    }
+    #feat-text{
+        margin: 0 0 12px 0;
+    }
 }
