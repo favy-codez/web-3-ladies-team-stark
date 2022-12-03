@@ -437,6 +437,12 @@ hr{
     .create-b{
         gap: 3rem;
     }
+    .connect-2-3-a{
+        gap: 2rem;
+    }
+    .third-dash{
+        margin: 0;
+    }
 }
 
 @media only screen and (max-width:375px){
