@@ -407,5 +407,9 @@ hr{
      }
      .connect-2-3-c{
         flex-direction: column;
+        gap: 1rem;
+     }
+     .create-b{
+        gap: 6rem;
      }
 }
