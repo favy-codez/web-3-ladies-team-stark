@@ -390,3 +390,22 @@ hr{
         padding: 2rem 2rem 0 10px;
     }
 } 
+
+@media only screen and (max-width:992px){
+    .connect-2-3{
+        padding: 2rem 2rem 0 2rem;
+    }
+     .connect-2-3-a{
+        flex-wrap:wrap ;
+     }
+     .third-dash{
+        display: block;
+        margin: 23px auto 0 auto;
+     }
+     .connect-2-3-b{
+        flex-direction: column;
+     }
+     .connect-2-3-c{
+        flex-direction: column;
+     }
+}
