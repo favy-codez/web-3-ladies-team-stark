@@ -473,6 +473,15 @@ hr{
         margin: 14px auto 0 auto;
     }
     .create-b{
+        gap: 1.5rem;
+    }
+    .part-b-dash-a{
+        width: 270px;
+    }
+    .connect-2-3-a{
         gap: 2rem;
+    }
+    .third-dash{
+        margin: 0;
     }
 }
