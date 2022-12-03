@@ -468,4 +468,11 @@ hr{
     #feat-text{
         margin: 0 0 12px 0;
     }
+    .spec-box{
+        display: block;
+        margin: 14px auto 0 auto;
+    }
+    .create-b{
+        gap: 2rem;
+    }
 }
