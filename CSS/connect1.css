@@ -111,11 +111,13 @@ html, body{
     padding: 15px 3px;
     font-size: 14px;
     text-align: center;
+
 }
 
 #logout{
     margin: 0 auto 3rem auto;
 }
+
 
 .free-trial a{
     color: #F4B40D;
